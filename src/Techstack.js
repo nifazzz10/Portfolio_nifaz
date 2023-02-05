@@ -31,7 +31,7 @@ function Techstack() {
   const constraintsRef = useRef(null);
   useEffect(() => {
     AOS.init();
-  }, []); 
+  }, []); 6
   const shoot = () => {
     constraintsRef=null;
   } 
