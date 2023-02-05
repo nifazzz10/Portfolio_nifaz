@@ -1,30 +1,25 @@
 
 import $ from 'jquery';
 
+import { useCallback } from "react";
+import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
+import particles from './particlejs/particle';
 function Banner() {
-  $(document).ready(function(){
-    $(".navbar .nav-link").on('click', function(event) {
 
-        if (this.hash !== "") {
+    const particlesInit = useCallback(async engine => {
+        console.log(engine);
+        // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
+        // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+        // starting from v2 you can add only the features you need reducing the bundle size
+        await loadFull(engine);
+    }, []);
 
-            event.preventDefault();
-
-            var hash = this.hash;
-
-            $('html, body').animate({
-                scrollTop: $(hash).offset().top
-            }, 700, function(){
-                window.location.hash = hash;
-            });
-        } 
-    });
-});
-  $('#nav-toggle').click(function(){
-    $(this).toggleClass('is-active')
-    $('ul.nav').toggleClass('show');
-});
+    const particlesLoaded = useCallback(async container => {
+        await console.log(container);
+    }, []);
   return (
-    <div >
+    <div  >
       
  <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
         <div class="container">
@@ -58,12 +53,13 @@ function Banner() {
             <h1 class="header-title">
                 <span class="up">HI!</span>
                 <span class="down">I am Nifaz</span>
-            </h1>
+            </h1>   <div class="typewriter">
             <p class="header-subtitle"> WEB DEVELOPER</p>            
-
+            </div>
             <button class="btn btn-primary">Visit My Works</button>
         </div>              
     </header>
+    {/* <Particles id="tsparticles" url="http://foo.bar/particles.json" init={particlesInit} loaded={particlesLoaded} /> */}
 
     </div>
   );

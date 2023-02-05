@@ -2,14 +2,16 @@
 import Aboutme from './Aboutme';
 import './App.css';
 import Banner from './banner';
-import Project from './project';
+import Project from './Project';
+import Techstack from './Techstack';
 function App() {
 
   return (
     <>
   <Banner />
   <Aboutme />
-  <Project />
+  <Techstack />
+  <Project/>
   </>
   );
 }
