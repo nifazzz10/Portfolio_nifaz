@@ -1,9 +1,9 @@
 
-import Aboutme from './aboutme';
+import Aboutme from './components/aboutme';
 import './App.css';
-import Banner from './banner';
-import Project from './project';
-import Techstack from './techstack';
+import Banner from './components/banner';
+import Project from './components/project';
+import Techstack from './components/techstack';
 function App() {
 
   return (

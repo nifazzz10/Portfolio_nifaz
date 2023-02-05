@@ -1,5 +1,5 @@
-import logo from "./img/nifaz.png"
-import './App.css'
+import logo from "../img/nifaz.png"
+import '../App.css'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";

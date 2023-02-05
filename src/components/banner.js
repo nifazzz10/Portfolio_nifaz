@@ -4,7 +4,7 @@ import $ from 'jquery';
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import particles from './particlejs/particle';
+
 function Banner() {
 
     const particlesInit = useCallback(async engine => {
