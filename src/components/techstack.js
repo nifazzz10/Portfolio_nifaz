@@ -45,7 +45,7 @@ function Techstack() {
     
 
 
-        <button onClick={shoot}>Take the shot!</button>
+    
         <div class="container text-center-block ">
           <motion.div class="row md-row-cols-3 row-cols-4 justify-content-center conainer "ref={constraintsRef}>
    

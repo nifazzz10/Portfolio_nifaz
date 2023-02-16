@@ -9,6 +9,7 @@
     "aos": "^2.3.4",
     "framer-motion": "^9.0.1",
     "jquery": "^3.6.3",
+    "node-sass": "^7.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-script-tag": "^1.1.2",
