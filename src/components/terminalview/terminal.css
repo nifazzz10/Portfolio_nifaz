@@ -91,6 +91,13 @@
   }
   
 
+  .line3 {
+    color: #E09690;
+    -webkit-animation: type .5s 7.5s steps(20, end) forwards;
+    -moz-animation: type .5s 7.5s steps(20, end) forwards;
+    -o-animation: type .5s 7.5s steps(20, end) forwards;
+    animation: type .5s 7.5s steps(20, end) forwards;
+  }
   
   .cursor3 {
     -webkit-animation: blink 1s 8.5s 2 forwards;
