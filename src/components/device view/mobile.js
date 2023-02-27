@@ -15,7 +15,14 @@ const Mobileview=(props)=>{
                       <figure class="ipad child "  style={{
                           backgroundImage: `linear-gradient(rgba(0,0,0,0), #111),url(${props.bgurl2})`,
                         }}>Tablet</figure>
-                    </div>
+                        <div class="child ">
+                        <h4>{props.title}</h4>
+                        
+                    <a  href={props.href}className="icons8-github"></a>     <a href={props.href2}className="icons8-hyperlink"></a>
+                        </div>
+
+                          </div>
+                 
 
  </>)
 }
