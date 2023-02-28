@@ -5,7 +5,8 @@ const data=[{
     bgurl:'https://i.ibb.co/PZ1DrKL/Screenshot-20230226-091351.png',
     bgurl2:'https://i.ibb.co/PZ1DrKL/Screenshot-20230226-091351.png',
     href:'https://github.com/nifazzz10/Daily-Fuel-Price-Api-Using-Flask',
-    href2:'https://dailyfuelpriceapi.onrender.com'
+    href2:'https://dailyfuelpriceapi.onrender.com',
+    tech:"[Flask] [Beautiful Soup] "
 
   },{
   id:2,
@@ -14,7 +15,8 @@ const data=[{
    bgurl2:"https://i.ibb.co/82cMGFn/Screenshot-20230226-105541.png",
    bgurl:'https://i.ibb.co/kxKZVQT/Screenshot-20230226-105525.png',
    href:'https://github.com/nifazzz10/Comment-Section-Using-React-JS',
-   href2:'https://commentsectionreact.netlify.app'
+   href2:'https://commentsectionreact.netlify.app',
+   tech:"[React JS] [Material UI]"
 }]
 
 export default data;

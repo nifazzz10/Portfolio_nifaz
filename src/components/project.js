@@ -30,10 +30,10 @@ const Project = () => {
           <div class="row ">
             <div class="col-md-5">
               {description && (
-                <Terminalview title={data[0].title} desc={data[0].desc} />
+                <Terminalview title={data[0].title} desc={data[0].desc} tech={data[0].tech} />
               )}
               {reviews && (
-                <Terminalview title={data[1].title} desc={data[1].desc} />
+                <Terminalview title={data[1].title} desc={data[1].desc}  tech={data[1].tech}/>
               )}
             </div>
             <div class="col-md-6">
@@ -71,7 +71,7 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div class='col-md-1'> 
+            <div class='col-md-1 iconss'> 
              <button class ="icons8-fuel"onClick={descriptionHandler}></button>
                   <button  class ="icons8-comments" onClick={reviewsHandler}></button></div>
           </div>

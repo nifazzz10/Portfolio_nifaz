@@ -20,7 +20,14 @@ const Terminalview=(props)=>{
                     </p>{" "}
                   </>
             
-              
+                
+                  <p class="line3 k">
+                  {" "}
+                  &#60;
+                  Tech Stack:<br />
+                  {props.tech}
+                 <span class="cursor3">_</span>
+                </p>
           
                 <p class="line4">
                   {" "}
