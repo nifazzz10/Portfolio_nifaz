@@ -17,6 +17,14 @@ const data=[{
    href:'https://github.com/nifazzz10/Comment-Section-Using-React-JS',
    href2:'https://commentsectionreact.netlify.app',
    tech:"[React JS] [Material UI]"
-}]
+},
+{ id:3,
+  title:"Lost n Found ",
+  desc:"A webapp where you may post the items you've found on campus as well as the ones you've lost. Via this website, the individual who misplaced his stuff may quickly obtain them.",
+   bgurl2:"https://i.ibb.co/82cMGFn/Screenshot-20230226-105541.png",
+   bgurl:'https://i.ibb.co/TtCYSC5/Screenshot-20230302-061138.png',
+   href:'https://github.com/nifazzz10/lostnfound-frontend',
+   href2:'https://lostnfound-sfq6.onrender.com',
+   tech:"[Mongo DB] [Express Js] [React JS] [Node Js] [Material UI]"}]
 
 export default data;

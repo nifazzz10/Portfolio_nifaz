@@ -4,6 +4,7 @@ import './App.css';
 import Banner from './components/banner';
 import Project from './components/project';
 import Techstack from './components/techstack';
+import Socialprofile from './components/socialprofile/socialprofile';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
   <Aboutme />
   <Techstack />
 <Project/>
+<Socialprofile/>
 
   </>
   );

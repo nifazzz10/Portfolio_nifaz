@@ -1,0 +1,12 @@
+
+
+
+    .inlines{
+        display:inline;
+    
+    }
+@media (max-width:900px) {
+    .leet img{
+        width: 300px;
+    }
+}

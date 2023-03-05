@@ -18,7 +18,7 @@ const Mobileview=(props)=>{
                         <div class="child ">
                         <h4>{props.title}</h4>
                         
-                    <a  href={props.href}className="icons8-github"></a>     <a href={props.href2}className="icons8-hyperlink"></a>
+                    <a  target="blank" href={props.href}className="icons8-github"></a>     <a  target="blank" href={props.href2}className="icons8-hyperlink"></a>
                         </div>
 
                           </div>
