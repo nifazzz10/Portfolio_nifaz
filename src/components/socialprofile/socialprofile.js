@@ -32,7 +32,7 @@ const Socialprofile = () => {
       <section class="section socialprofile">
         <div class="container text-center ws">
           <p class="section-subtitle stats">Stats</p>
-          <h6 class="section-title mb-6 sp">Social Profile</h6>
+          <h6  data-aos="fade-right" class="section-title mb-6 sp">Social Profile🔗</h6>
 
           <div class="row ">
             <div class="col-md-11">

@@ -32,16 +32,14 @@ function Techstack() {
   useEffect(() => {
     AOS.init();
   }, []);
-  const shoot = () => {
-    constraintsRef = null;
-  };
+
   return (
     <section class="section techstack" id="portfolio">
       <div class="container text-center tsalign">
         <p class="section-subtitle jk">Skills I Learnt</p>
 
         <h1 data-aos="fade-right" class="section-title mb-6 typewriter jkk">
-          Tech Stack
+          Tech Stack🗂️
         </h1>
 
         <div class="container text-center-block ">

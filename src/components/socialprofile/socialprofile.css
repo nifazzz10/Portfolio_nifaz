@@ -1,16 +1,17 @@
 .social {
   /* From https://css.glass */
   /* From https://css.glass */
-  background: rgba(255, 255, 255, 0.54);
+  background: rgba(240, 240, 240, 0.12);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(4.9px);
-  -webkit-backdrop-filter: blur(4.9px);
+  backdrop-filter: blur(6.4px);
+  -webkit-backdrop-filter: blur(6.4px);
   border: 1px solid rgba(139, 139, 139, 0.3);
   padding: 3%;
   margin-bottom: 10%;
   margin: auto;
-  
+  border-radius: 16px;
+
 }
 .icons8-level-up-your-coding-skills-and-quickly-land-a-job {
   border: none;
@@ -102,6 +103,6 @@
 }
 
 .stats,.sp{
-
+  display: flex   ;
   color: #ffffff;
 }

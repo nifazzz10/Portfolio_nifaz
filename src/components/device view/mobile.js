@@ -3,7 +3,7 @@ import "./device.scss";
 const Mobileview = (props) => {
   return (
     <>
-      <div class="parent">
+      <div class="parent alll">
         <figure
           class="iphone child"
           style={{

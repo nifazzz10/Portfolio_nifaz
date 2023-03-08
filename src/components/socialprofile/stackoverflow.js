@@ -63,7 +63,7 @@ const Stackoverflow = () => {
                 width="380px"
                 align="center"
                 class="stkcard"
-                src=" https://stackoverflow-card.vercel.app/?userID=17401372&showLogo=false&theme=stackoverflow-light"
+                src=" https://stackoverflow-card.vercel.app/?userID=17401372&showLogo=true&theme=stackoverflow-dark"
               />
             </a>
           </div>

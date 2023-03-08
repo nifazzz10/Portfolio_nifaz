@@ -34,7 +34,7 @@ const Project = () => {
       <section class="section d" id="portfolio">
         <div class="container text-center">
           <p class="section-subtitle proj">What I Did ?</p>
-          <h6 class="section-title mb-6 proj">Projects</h6>
+          <h6 data-aos="fade-right"  class="section-title mb-6 proj">Projects⚒️</h6>
 
           <div class="row ">
             <div class="col-md-5">
@@ -60,7 +60,7 @@ const Project = () => {
               )}
             </div>
             <div class="col-md-6">
-              <div class="card">
+              <div class="card" >
                 <div class="face face1">
                   <div class="content">
                     <span class="stars"></span>

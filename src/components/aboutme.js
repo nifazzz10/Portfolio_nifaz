@@ -18,7 +18,7 @@ function Aboutme() {
             </div>
             <div class="about-caption">
               <h2 data-aos="fade-right" class="section-title mb-3">
-                About Me
+                About Me😺
               </h2>
               <div>
                 <p class="nig">

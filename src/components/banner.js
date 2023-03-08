@@ -26,12 +26,12 @@ function Banner() {
         <div class="overlay"></div>
         <div class="header-content container">
             <h1 class="header-title">
-                <span class="up">HI!</span>
+                <span class="up">Hi!👋</span>
                 <span class="down">I am Nifaz</span>
             </h1>   <div class="typewriter">
             <p class="header-subtitle"> WEB DEVELOPER</p>            
             </div>
-            <button class="btn btn-primary">Visit My Works</button>
+          <a href='#portfolio'>  <button class="btn btn-primary">Visit My Works</button></a>
         </div>              
     </header>
     {/* <Particles id="tsparticles" url="http://foo.bar/particles.json" init={particlesInit} loaded={particlesLoaded} /> */}

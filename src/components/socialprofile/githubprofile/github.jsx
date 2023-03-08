@@ -16,13 +16,13 @@ const Github = () => {
           <img
             width="380px"
             align="center"
-            src="https://github-readme-stats.vercel.app/api?username=nifazzz10"
+            src="https://github-readme-stats.vercel.app/api?username=nifazzz10&theme=dark"
           />
         </a>
         <a href="https://github.com/nifazzz10/lostnfound-Frontend-repo">
           <img
             align="center"
-            src="https://github-readme-stats.vercel.app/api/top-langs/?username=nifazzz10&layout=compact"
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=nifazzz10&layout=compact&theme=dark"
           />
         </a>{" "}
         {/* <a href="https://github.com/nifazzz10/lostnfound-Frontend-repo">
@@ -41,6 +41,11 @@ const Github = () => {
             flexWrap: "wrap",
             marginLeft: "18%",
             alignContent: "center",
+            // WebkitBackdropFilter:"blur('6.4px')",
+            // backdropFilter:"blur('6.4px')",
+            // background: "rgba(240, 240, 240, 0.12)",
+            // boxShadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+     color:"white"
           }}
           username="nifazzz10"
         />

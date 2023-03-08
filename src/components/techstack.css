@@ -3,9 +3,18 @@
    background-repeat: no-repeat;
 }
 .tsalign{
-margin-top:14% ;
+margin-top:18% ;
 }
 .jk,.jkk{
- 
+  display: flex;
     color: aliceblue;
+}
+@media (max-width:950px) {
+    .jk,.jkk{
+        display:block;
+          color: aliceblue;
+      }
+      .tsalign{
+        margin-top:44% ;
+        }
 }

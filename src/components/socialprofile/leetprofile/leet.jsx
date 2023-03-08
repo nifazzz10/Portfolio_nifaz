@@ -23,9 +23,9 @@ const Leet = () => {
         <a href="https://github.com/nifazzz10/lostnfound-Frontend-repo">
           <img
             width="700px"
-            height="350px"
+            height="300px"
             align="center"
-            src="https://leetcard.jacoblin.cool/nifazzz10?theme=light&ext=activity"
+            src="https://leetcard.jacoblin.cool/nifazzz10?theme=dark&ext=activity"
           />
         </a>
       </div>
