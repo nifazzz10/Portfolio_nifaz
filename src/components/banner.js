@@ -1,6 +1,6 @@
 
 import $ from 'jquery';
-
+import"./banner.css"
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
@@ -21,32 +21,7 @@ function Banner() {
   return (
     <div  >
       
- <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
-        <div class="container">
-            <a class="logo" href="#">Nifaz</a>         
-            <ul class="nav">
-                <li class="item">
-                    <a class="link" href="#home">Home</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#about">About Me</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#testmonial">Testmonial</a>
-                </li>
-         
-                <li class="item">
-                    <a class="link" href="#contact">Contact</a>
-                </li>
-               
-            </ul>
-           
-          
-        </div>          
-    </nav>
+
     <header id="home" class="header">
         <div class="overlay"></div>
         <div class="header-content container">

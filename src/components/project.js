@@ -7,7 +7,7 @@ import data from "./data";
 import Mobileview from "./device view/mobile";
 import Terminalview from "./terminalview/terminal";
 import Icon from "./device view/icon";
-
+import "./project.css"
 const Project = () => {
   const [fuelprice, setfuelprice] = useState(true);
   const [commentsection, setcommentsection] = useState(false);
@@ -33,8 +33,8 @@ const Project = () => {
   
       <section class="section d" id="portfolio">
         <div class="container text-center">
-          <p class="section-subtitle">What I Did ?</p>
-          <h6 class="section-title mb-6">Projects</h6>
+          <p class="section-subtitle proj">What I Did ?</p>
+          <h6 class="section-title mb-6 proj">Projects</h6>
 
           <div class="row ">
             <div class="col-md-5">
@@ -50,6 +50,12 @@ const Project = () => {
                   title={data[1].title}
                   desc={data[1].desc}
                   tech={data[1].tech}
+                />
+              )}   {lostnfound && (
+                <Terminalview
+                  title={data[2].title}
+                  desc={data[2].desc}
+                  tech={data[2].tech}
                 />
               )}
             </div>
@@ -77,6 +83,15 @@ const Project = () => {
                         title={data[1].title}
                       />
                     )}
+                    {lostnfound && (
+                      <Mobileview
+                        bgurl={data[2].bgurl}
+                        bgurl2={data[2].bgurl2}
+                        href={data[2].href}
+                        href2={data[2].href2}
+                        title={data[2].title}
+                      />
+                    )}
                   </div>
                 </div>
                 <div class="face face2"></div>
@@ -85,6 +100,7 @@ const Project = () => {
             <div class="col-md-1 iconss">
               <button class="icons8-fuel" onClick={fuelpriceHandler}></button>
               <button class="icons8-comments" onClick={commentsectionHandler}></button>
+              <button class="icons8-nothing-found" onClick={lostnfoundHandler}></button>
             </div>
           </div>
         </div>

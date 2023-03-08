@@ -1,17 +1,11 @@
-
-
-@media (max-width:900px){
-.l img{
-        width: 90%;
-        
-    }
+@media (max-width: 900px) {
+  .l img {
+    width: 90%;
+  }
 }
-.inlines{
-    display:inline;
-
+.inlines {
+  display: inline;
 }
-.m img{
-
-
-margin-top:15%;
+.m img {
+  margin-top: 15%;
 }

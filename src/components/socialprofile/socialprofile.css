@@ -10,6 +10,7 @@
   padding: 3%;
   margin-bottom: 10%;
   margin: auto;
+  
 }
 .icons8-level-up-your-coding-skills-and-quickly-land-a-job {
   border: none;
@@ -95,4 +96,12 @@
   .iconss button {
     margin: 7%;
   }
+}
+.socialprofile{
+  background:#1F2223;;
+}
+
+.stats,.sp{
+
+  color: #ffffff;
 }

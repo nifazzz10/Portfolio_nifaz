@@ -29,10 +29,10 @@ const Socialprofile = () => {
 
   return (
     <>
-      <section class="section ">
-        <div class="container text-center">
-          <p class="section-subtitle">Stats</p>
-          <h6 class="section-title mb-6">Social Profile</h6>
+      <section class="section socialprofile">
+        <div class="container text-center ws">
+          <p class="section-subtitle stats">Stats</p>
+          <h6 class="section-title mb-6 sp">Social Profile</h6>
 
           <div class="row ">
             <div class="col-md-11">

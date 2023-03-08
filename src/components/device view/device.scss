@@ -1,13 +1,12 @@
-
-
-.iphone, .ipad {
+.iphone,
+.ipad {
 	display: block;
 
 	color: #fff;
 	text-align: center;
 	font-family: 'SF Pro Display', Helvetica Neue, Arial, sans-serif;
 	letter-spacing: -.022em;
-	font-size:9px;
+	font-size: 9px;
 	text-shadow: 0 0 0.5em #000;
 	background-color: #000;
 	background-size: auto 200%, cover;
@@ -19,6 +18,7 @@
 	transition: all .1s linear, line-height 0s linear;
 	background-position: 50% 100%, center;
 	transform-origin: bottom center;
+
 	&:hover {
 		color: transparent;
 		text-shadow: 0 0 0em transparent;
@@ -32,48 +32,66 @@
 
 .iphone {
 	$unit: 28vmin/2.525;
+	margin-left: 10%;
 	width: $unit;
 	height: 2.15*$unit;
 	line-height: 2.165*$unit;
 	border-width: $unit/15.625;
 	border-radius: $unit/5.86;
-	background-image: linear-gradient(rgba(0,0,0,0), #111), url(https://i.ibb.co/PZ1DrKL/Screenshot-20230226-091351.png);
+	background-image: linear-gradient(rgba(0, 0, 0, 0), #111), url(https://i.ibb.co/PZ1DrKL/Screenshot-20230226-091351.png);
 	z-index: 200;
 }
 
 .ipad {
-	$unit: 20vmin; 
+	$unit: 20vmin;
 	margin-left: 2em;
 	height: 1.43*$unit;
 	width: $unit;
 	line-height: 1.43*$unit;
 	border-width: $unit/20;
 	border-radius: $unit/14;
-	background-image:  linear-gradient(rgba(0,0,0,0), #111), url(https://i.ibb.co/bzGyWdm/Screenshot-20230226-091030.png);
+	background-image: linear-gradient(rgba(0, 0, 0, 0), #111), url(https://i.ibb.co/bzGyWdm/Screenshot-20230226-091030.png);
 	z-index: 100;
 }
+
 .parent {
-   
-    margin: 1rem;
-    padding: 2rem 2rem;
-    text-align: center;
-  }
-  .child {
-    display: inline-block;
-    padding: 1rem 1rem;
-    vertical-align: middle;
-  }
-  @media screen and (max-width: 992px) {
-	.iphone{font-size:0px;color:#00000000}
-	.ipad{font-size:5px;color:#00000000}
-	.iphone,.ipad{$unit: 10vmin/2.525;}
-  }
-  .new{
-	color: #000;
-  }
-  .icons8-react-native { 
+
+	margin: 1rem;
+	padding: 2rem 2rem;
+	text-align: center;
+}
+
+.child {
+	display: inline-block;
+	padding: 1rem 1rem;
+	vertical-align: middle;
+}
+
+@media screen and (max-width: 992px) {
+	.iphone {
+		font-size: 0px;
+		color: #00000000
+	}
+
+	.ipad {
+		font-size: 5px;
+		color: #00000000
+	}
+
+	.iphone,
+	.ipad {
+		$unit: 10vmin/2.525;
+	}
+}
+
+
+.icons8-react-native {
 	display: inline-block;
 	width: 48px;
 	height: 48px;
 	background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAsMCwyNTYsMjU2IgpzdHlsZT0iZmlsbDojMDAwMDAwOyI+CjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI2LjY2NjY3LDI2LjY2NjY3KSBzY2FsZSgwLjc5MTY3LDAuNzkxNjcpIj48ZyBmaWxsPSIjZWVlZWVlIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMTI4LDI4OS42ODQyMWMtODkuMjk1NzIsMCAtMTYxLjY4NDIxLC03Mi4zODg0OSAtMTYxLjY4NDIxLC0xNjEuNjg0MjF2MGMwLC04OS4yOTU3MiA3Mi4zODg0OSwtMTYxLjY4NDIxIDE2MS42ODQyMSwtMTYxLjY4NDIxdjBjODkuMjk1NzIsMCAxNjEuNjg0MjEsNzIuMzg4NDkgMTYxLjY4NDIxLDE2MS42ODQyMXYwYzAsODkuMjk1NzIgLTcyLjM4ODQ5LDE2MS42ODQyMSAtMTYxLjY4NDIxLDE2MS42ODQyMXoiIGlkPSJzaGFwZSI+PC9wYXRoPjwvZz48ZyBmaWxsPSIjODBkZWVhIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48ZyB0cmFuc2Zvcm09InNjYWxlKDUuMzMzMzMsNS4zMzMzMykiPjxwYXRoIGQ9Ik0yNCwzNGMtMTIuOSwwIC0yMywtNC40IC0yMywtMTBjMCwtNS42IDEwLjEsLTEwIDIzLC0xMGMxMi45LDAgMjMsNC40IDIzLDEwYzAsNS42IC0xMC4xLDEwIC0yMywxMHpNMjQsMTZjLTEyLjYsMCAtMjEsNC4xIC0yMSw4YzAsMy45IDguNCw4IDIxLDhjMTIuNiwwIDIxLC00LjEgMjEsLThjMCwtMy45IC04LjQsLTggLTIxLC04eiI+PC9wYXRoPjxwYXRoIGQ9Ik0xNS4xLDQ0LjZjLTEsMCAtMS44LC0wLjIgLTIuNiwtMC43Yy00LjksLTIuOCAtMy42LC0xMy43IDIuOCwtMjQuOXYwYzMsLTUuMiA2LjcsLTkuNiAxMC4zLC0xMi40YzMuOSwtMyA3LjQsLTMuOSA5LjgsLTIuNWMyLjUsMS40IDMuNCw0LjkgMi44LDkuOGMtMC42LDQuNiAtMi42LDEwIC01LjYsMTUuMmMtMyw1LjIgLTYuNyw5LjYgLTEwLjMsMTIuNGMtMi42LDIgLTUuMSwzLjEgLTcuMiwzLjF6TTMyLjksNS40Yy0xLjYsMCAtMy43LDAuOSAtNiwyLjdjLTMuNCwyLjcgLTYuOSw2LjkgLTkuOCwxMS45djBjLTYuMywxMC45IC02LjksMjAuMyAtMy42LDIyLjJjMS43LDEgNC41LDAuMSA3LjYsLTIuM2MzLjQsLTIuNyA2LjksLTYuOSA5LjgsLTExLjljMi45LC01IDQuOCwtMTAuMSA1LjQsLTE0LjRjMC41LC00IC0wLjEsLTYuOCAtMS44LC03LjhjLTAuNSwtMC4yIC0xLC0wLjQgLTEuNiwtMC40eiI+PC9wYXRoPjxwYXRoIGQ9Ik0zMyw0NC42Yy01LDAgLTEyLjIsLTYuMSAtMTcuNiwtMTUuNmMtNi41LC0xMS4yIC03LjgsLTIyLjEgLTIuOSwtMjQuOXYwYzQuOSwtMi44IDEzLjcsMy43IDIwLjIsMTQuOWMzLDUuMiA1LDEwLjYgNS42LDE1LjJjMC43LDQuOSAtMC4zLDguMyAtMi44LDkuOGMtMC44LDAuNCAtMS42LDAuNiAtMi41LDAuNnpNMTMuNSw1LjhjLTMuMywxLjkgLTIuNywxMS4zIDMuNiwyMi4yYzYuMywxMC45IDE0LjEsMTYuMSAxNy40LDE0LjJjMS43LC0xIDIuMywtMy44IDEuOCwtNy44Yy0wLjYsLTQuMyAtMi41LC05LjQgLTUuNCwtMTQuNGMtNi4zLC0xMC45IC0xNC4xLC0xNi4xIC0xNy40LC0xNC4yeiI+PC9wYXRoPjxjaXJjbGUgY3g9IjI0IiBjeT0iMjQiIHI9IjQiPjwvY2lyY2xlPjwvZz48L2c+PC9nPgo8L3N2Zz4=') 50% 50% no-repeat;
-	background-size: 100%;}
+	background-size: 100%;
+}
+.projtitle{
+	color: #fff;
+}

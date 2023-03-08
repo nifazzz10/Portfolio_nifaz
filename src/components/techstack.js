@@ -25,31 +25,31 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { useRef } from "react";
-
+import "./techstack.css";
 
 function Techstack() {
   const constraintsRef = useRef(null);
   useEffect(() => {
     AOS.init();
-  }, []); 
+  }, []);
   const shoot = () => {
-    constraintsRef=null;
-  } 
+    constraintsRef = null;
+  };
   return (
-    <section class="section" id="portfolio">
-      <div class="container text-center">
-        <p  class="section-subtitle">Skills I Learnt</p>
-     
-        <h1 data-aos="fade-right"class="section-title mb-6 typewriter">Tech Stack</h1>
-        
-    
+    <section class="section techstack" id="portfolio">
+      <div class="container text-center tsalign">
+        <p class="section-subtitle jk">Skills I Learnt</p>
 
+        <h1 data-aos="fade-right" class="section-title mb-6 typewriter jkk">
+          Tech Stack
+        </h1>
 
-    
         <div class="container text-center-block ">
-          <motion.div class="row md-row-cols-3 row-cols-4 justify-content-center conainer "ref={constraintsRef}>
-   
-    <motion.img
+          <motion.div
+            class="row md-row-cols-3 row-cols-4 justify-content-center conainer "
+            ref={constraintsRef}
+          >
+            <motion.img
               className="box"
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.9 }}
@@ -58,10 +58,9 @@ function Techstack() {
               height="60"
               width="60"
               alt=" v"
-              drag dragConstraints={constraintsRef}
+              drag
+              dragConstraints={constraintsRef}
             />
-
-    
 
             <motion.img
               className="box"
@@ -72,7 +71,8 @@ function Techstack() {
               height="60"
               width="60"
               alt=" v"
-              drag dragConstraints={constraintsRef}
+              drag
+              dragConstraints={constraintsRef}
             />
 
             <motion.img
@@ -84,7 +84,9 @@ function Techstack() {
               height="60"
               width="60"
               alt=" v"
-              drag dragConstraints={constraintsRef} />
+              drag
+              dragConstraints={constraintsRef}
+            />
 
             <motion.img
               className="box"
@@ -95,7 +97,9 @@ function Techstack() {
               height="60"
               width="60"
               alt=" v"
-              drag dragConstraints={constraintsRef} />
+              drag
+              dragConstraints={constraintsRef}
+            />
 
             <motion.img
               className="box"
@@ -106,7 +110,9 @@ function Techstack() {
               height="60"
               width="60"
               alt=" v"
-              drag dragConstraints={constraintsRef} />
+              drag
+              dragConstraints={constraintsRef}
+            />
 
             <motion.img
               className="box"
@@ -117,7 +123,9 @@ function Techstack() {
               height="60"
               width="60"
               alt=" v"
-              drag dragConstraints={constraintsRef} />
+              drag
+              dragConstraints={constraintsRef}
+            />
 
             <motion.img
               className="box"
@@ -128,7 +136,9 @@ function Techstack() {
               height="60"
               width="60"
               alt=" v"
-              drag dragConstraints={constraintsRef} />
+              drag
+              dragConstraints={constraintsRef}
+            />
 
             <motion.img
               className="box"
@@ -139,7 +149,9 @@ function Techstack() {
               height="60"
               width="60"
               alt=" v"
-              drag dragConstraints={constraintsRef} />
+              drag
+              dragConstraints={constraintsRef}
+            />
             <motion.img
               className="box"
               whileHover={{ scale: 1.2 }}
@@ -149,7 +161,9 @@ function Techstack() {
               height="60"
               width="60"
               alt=" v"
-              drag dragConstraints={constraintsRef} />
+              drag
+              dragConstraints={constraintsRef}
+            />
             <motion.img
               className="box"
               whileHover={{ scale: 1.2 }}
@@ -159,7 +173,9 @@ function Techstack() {
               height="60"
               width="60"
               alt=" v"
-              drag dragConstraints={constraintsRef}   />
+              drag
+              dragConstraints={constraintsRef}
+            />
             <motion.img
               className="box"
               whileHover={{ scale: 1.2 }}
@@ -169,7 +185,9 @@ function Techstack() {
               height="60"
               width="60"
               alt=" v"
-              drag dragConstraints={constraintsRef}   />
+              drag
+              dragConstraints={constraintsRef}
+            />
             <motion.img
               className="box"
               whileHover={{ scale: 1.2 }}
@@ -179,7 +197,9 @@ function Techstack() {
               height="60"
               width="60"
               alt=" v"
-              drag dragConstraints={constraintsRef}   />
+              drag
+              dragConstraints={constraintsRef}
+            />
             <motion.img
               className="box"
               whileHover={{ scale: 1.2 }}
@@ -189,7 +209,9 @@ function Techstack() {
               height="60"
               width="60"
               alt=" v"
-              drag dragConstraints={constraintsRef}   />
+              drag
+              dragConstraints={constraintsRef}
+            />
             <motion.img
               className="box"
               whileHover={{ scale: 1.2 }}
@@ -199,7 +221,9 @@ function Techstack() {
               height="60"
               width="60"
               alt=" v"
-              drag dragConstraints={constraintsRef}  />
+              drag
+              dragConstraints={constraintsRef}
+            />
             <motion.img
               className="box"
               whileHover={{ scale: 1.2 }}
@@ -209,7 +233,9 @@ function Techstack() {
               height="60"
               width="60"
               alt=" v"
-              drag dragConstraints={constraintsRef}   />
+              drag
+              dragConstraints={constraintsRef}
+            />
             <motion.img
               className="box"
               whileHover={{ scale: 1.2 }}
@@ -219,7 +245,9 @@ function Techstack() {
               height="60"
               width="60"
               alt=" v"
-              drag dragConstraints={constraintsRef}   />
+              drag
+              dragConstraints={constraintsRef}
+            />
             <motion.img
               className="box"
               whileHover={{ scale: 1.2 }}
@@ -229,7 +257,9 @@ function Techstack() {
               height="60"
               width="60"
               alt=" v"
-              drag dragConstraints={constraintsRef}   />
+              drag
+              dragConstraints={constraintsRef}
+            />
             <motion.img
               className="box"
               whileHover={{ scale: 1.2 }}
@@ -239,7 +269,9 @@ function Techstack() {
               height="60"
               width="60"
               alt=" v"
-              drag dragConstraints={constraintsRef}   />
+              drag
+              dragConstraints={constraintsRef}
+            />
           </motion.div>
         </div>
       </div>
