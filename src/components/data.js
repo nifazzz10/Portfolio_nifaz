@@ -1,12 +1,12 @@
 const data=[{
     id:1,
-    title:"Daily Fuel Price Api",
-    desc:"This project was overseen by our college's Mobile App Laboratory and uses web scraping to show the data on a site where the API is not obtained from any publicly accessible website",
+    title:"Daily Fuel Price Webapp",
+    desc:"This project was overseen by our college's Mobile App Laboratory and uses web scraping to show the data on a site where the API is not obtained from any publicly accessible website and displayed using react",
     bgurl:'https://i.ibb.co/PZ1DrKL/Screenshot-20230226-091351.png',
     bgurl2:'https://i.ibb.co/PZ1DrKL/Screenshot-20230226-091351.png',
     href:'https://github.com/nifazzz10/Daily-Fuel-Price-Api-Using-Flask',
-    href2:'https://dailyfuelpriceapi.onrender.com',
-    tech:"[Flask] [Beautiful Soup] "
+    href2:'https://dailyfuelpricereact.netlify.app/',
+    tech:"[Flask] [Beautiful Soup] [React JS] "
 
   },{
   id:2,

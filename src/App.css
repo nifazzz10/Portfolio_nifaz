@@ -117,3 +117,21 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 .d{
   background: #1F2223;
 }
+.thinker {
+  position:absolute;
+  max-width:45%;
+  max-height:45%;
+  top:50%;
+  left:50%;
+  overflow:visible;
+
+}
+.think {
+  position:relative;
+  max-width:100%;
+  max-height:100%;
+  margin-top:-50%;
+  margin-left:-50%;
+  width: 200px;
+  
+}

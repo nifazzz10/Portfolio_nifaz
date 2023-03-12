@@ -5,18 +5,34 @@ import Project from "./components/project";
 import Techstack from "./components/techstack";
 import Socialprofile from "./components/socialprofile/socialprofile";
 import Footer from "./components/footer/footer";
-
+import think from "./img/thnk.gif"
+import React, { useState, useEffect } from 'react'
 function App() {
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 6000)
+  }, [])
   return (
     <>
-      <Banner />
-      <Aboutme />
-      <Techstack />
+        {loading === false ? (
+          <>
+   <Banner />
+   <Aboutme />
+   <Techstack />
 
-      <Project />
+   <Project />
 
-      <Socialprofile />
-      <Footer/>
+   <Socialprofile />
+   <Footer/></>
+      ) : (
+<>  
+<div class="thinker">
+<img  class="think" src={think}></img>
+</div>
+</>
+      )}
+     
     </>
   );
 }
